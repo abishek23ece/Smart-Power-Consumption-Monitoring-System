@@ -1,0 +1,29 @@
+ESP32 Microcontroller
+Acts as the main processing and control unit of the system. It collects sensor data, performs power calculations, and transmits data wirelessly to the cloud using built-in Wi-Fi.
+
+Current Sensor (ACS712)
+Used to measure the current consumed by the electrical load. It provides accurate, real-time current measurements and is suitable for low-cost energy monitoring applications.
+
+Voltage Sensor Module
+Measures the AC mains voltage and provides a scaled-down analog signal to the ESP32 for safe processing and voltage calculation.
+
+LCD Display (16×2 / OLED Display)
+Displays real-time electrical parameters such as voltage, current, power, and energy consumption locally.
+
+Relay Module
+Enables remote switching and control of electrical loads. It provides isolation between high-voltage loads and low-voltage control circuitry.
+
+Wi-Fi Network / Internet Connection
+Required for transmitting measured data from the ESP32 to cloud platforms or mobile applications for remote monitoring.
+
+Power Supply Unit (5V / 3.3V Regulated Supply)
+Supplies stable operating voltage to the ESP32 and other system components.
+
+Load (Bulb / Fan / Appliance)
+Represents the electrical device whose power consumption is monitored by the system.
+
+Connecting Wires and Breadboard / PCB
+Used for interconnecting components during prototyping or for permanent mounting in PCB form.
+
+Resistors and Capacitors
+Used for signal conditioning, filtering, and voltage regulation where required.
